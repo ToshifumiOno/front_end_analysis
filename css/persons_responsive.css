@@ -1,0 +1,39 @@
+@media all and (max-width: 960px) {
+	
+
+	.aside {
+		display: none;
+	} 
+
+	.main {
+		width: 100vw;
+		padding-top: 60px;
+	}
+	
+}
+
+
+@media all and (max-width: 640px) {
+	
+	.user {
+		width: 90%;
+	}
+
+	.user-items {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.user-icon {
+		padding: 0;
+		margin-top: 30px
+	}
+
+	.user-hashtag {
+		margin: 30px auto;
+	}
+
+	.hashtag-data-contents {
+		font-size: 0.8rem;
+	}
+}

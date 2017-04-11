@@ -1,0 +1,304 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+	width: 100%;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.sp-data {
+	display: none;
+}
+
+
+/* Main styles for this application */
+
+.container {
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+
+/* header */
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(to left,#405de6,#5851d8,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+	opacity: 0.9;
+	border-bottom: 1px solid #d3d3d3;
+	z-index: 15;
+}
+
+.header i {
+	display: block;
+}
+
+.fa-bars {
+	display: block;
+
+	position: fixed;
+	top: 20px;
+	left: 15px;
+
+	padding-left: 10px;
+	color: #fff;
+
+}
+
+
+.header-contents {
+	width: 100%;
+	height: 60px;
+}
+
+
+.nav-items {
+	display: block;
+	float: left;
+	line-height: 60px;
+}
+
+.humberger-menu {
+	margin-right: 30px;
+	display: none;
+}
+
+
+.menu-list {
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.wrapper {
+	position: relative;
+}
+
+/* aside */
+
+.aside {
+	position: fixed;
+	z-index: 10;
+
+	float: left;
+	width: 100%;
+	padding-top: 60px; 
+
+	display: none;
+}
+
+.sidemenu {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to left,#405de6,#5851d8,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+	opacity: 0.9;
+}
+
+.sidemenu-items {
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	/*margin: 40px auto 0 auto; */
+	font-size: 13px;
+}
+
+.sidemenu-items a {
+	color: #fff;
+}
+
+/* main */
+
+.main {
+	float: right;
+	width: 100%;
+	padding-top: 60px;
+	margin: 0 auto;
+}
+
+
+
+/* user */
+
+.user {
+	width: 90%;
+	margin: 50px auto;
+	background: #FFF176;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.user-detail {
+	width: 100%;
+	height: 40%;
+}
+
+.user-items {
+	display: block;
+	float: left;
+}
+
+
+
+/* user-icon */
+
+.user-icon {
+	width: 20%;
+	margin-left: 20px;
+	padding: 30px;
+}
+
+.user-image {
+	display: block;
+
+	width: 100px;
+	height: 100px; 
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.user-name {
+	display: block;
+	width: 100px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+
+
+/* user-data */
+
+.user-data {
+	display: inline-block;
+	margin-top: 34px;
+
+	width: 20%;
+}
+
+.user-data-items {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px; 
+	height: 20px;
+}
+
+
+
+/* user-hashtag */
+
+.user-hashtag {
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 40px;
+	
+
+	background: #fcaf45;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+.hashtag-data {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hashtag-data-body {
+	width: 100%;
+}
+
+.hashtag-data-content {
+	display: block;
+	width: 100%;
+}
+
+.hashtag-data-contents {
+	display: inline-block;
+	float: left;
+	width: 33%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+
+}
+
+
+/* chart */
+
+.chart-base {
+	margin: 0 auto 30px;
+	width: 70vw;
+}
+
+.chart-base canvas {
+	width: 100vw; 
+	height: 300px;
+}
+
+
+/* pagination */
+.pagination-wrapper {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* footer */
+
+.footer {
+	height: 60px;
+	width: 100%;
+	background: linear-gradient(to left,#405de6,#5851d8,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80); 	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
